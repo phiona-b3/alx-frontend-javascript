@@ -7,7 +7,7 @@ export default function updateUniqueItems(map) {
         list.set(key, 100);
       }
     }
-  } else { 
+  } else {
     throw new Error('Cannot process');
   }
   return list;
